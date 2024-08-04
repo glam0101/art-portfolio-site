@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d38ef4; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    margin-top: 25px;
+}
+
+.heading-container {
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#heading {
+    font-size: 10vw; /* Responsive font size based on viewport width */
+    color: #faeacc;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: #c044b7; /* Dark purple background for header */
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+img[src="../images/header.png"] {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fde9c8;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 2vw;
+}
+
+nav ul li a:hover {
+    background-color: #a636ab; /* Change color on hover */
+    border-radius: 15px;
+}
+
+nav ul li a[href="about.html"] {
+color: #802b91;
+
+}
+
+.content-top {
+    display: flex;
+    margin-top: 7vw;
+    margin-bottom: 2vw;
+
+    justify-content: space-between;
+}
+
+#box1 {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img[src="../images/aboutimg.jpg"] {
+    width: 100%;
+}
+
+h3 a[href="./resume.html"] {
+    background-color: #501bb3;
+    color: #fde9c8;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 2.9vw;
+
+    padding: 10px 12px;
+    text-align: center;
+    border-radius: 9px;
+}
+
+#box2 {
+    width: 60%;
+display: flex;
+flex-direction: column;
+}
+
+#aboutheading{
+    font-family: sans-serif;
+    font-size: 4vw;
+    color: #501bb3;
+}
+
+#aboutbox1 {
+    display: flex;
+   justify-content: center;
+   width: 94%;
+
+}
+
+#aboutbox1 p {
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    color: #501bb3;
+}
+
+
+.content-bttm{
+    display: flexbox;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#box3 {
+
+display: flex;
+justify-content: center;
+
+margin-bottom: 6vw;
+
+}
+
+#box3 p {
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    color: #501bb3;
+}
