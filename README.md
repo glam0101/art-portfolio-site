@@ -1,7 +1,7 @@
 # Art Portfolio Website
 Vapourwave inspired art portfolio website
 
-!![screenshot of the top of the website](READMEimage.jpeg)
+![screenshot of the top of the website](READMEimage.jpeg)
 
 
 
